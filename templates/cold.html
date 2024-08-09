@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mart</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <div class="logo-search">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="DROP IT">
+            </a>
+            <div class="search-bar">
+                <select>
+                    <option>All Categories</option>
+                    <option>Fruits</option>
+                    <option>Vegetables</option>
+                    <option>Dairy</option>
+                    <option>Meat</option>
+                    <option>Snacks</option>
+                    <option>Beverages</option>
+                    <option>Bakery</option>
+                    <option>Others</option>
+                    <!-- Add more categories as options -->
+                </select>
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-cart">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <h2>Product Categories</h2>
+                <ul>
+                    <li><a href="#">Top Picks</a></li>
+                    <li><a href="#">Soft Drinks</a></li>
+                    <li><a href="#">Fruit Juices & Drinks</a></li>
+                    <li><a href="#">Non-Alco & Energy Drink </a></li>
+                    <li><a href="#">Water</a></li>
+                    <li><a href="#">Soda & Mixers</a></li>
+                    <li><a href="#">Instant Drink Mixes</a></li>
+                    <li><a href="#">Milk Drinks</a></li>
+                    <li><a href="#">Combos</a></li>
+                    <li><a href="#">Top Deals</a></li>
+                    <li><a href="#">Home Grown Brands</a></li>
+                    <li><a href="#">Vegan Drinks</a></li>
+                    <li><a href="#">Newly Added</a></li>
+
+                </ul>
+                <div>
+                    <section class="banner">
+                        <h2>Fresh Vegetables BIG SALE</h2>
+                        <img src="banner.jpg" alt="Banner">
+                    </section>
+                </div>
+            </aside>
+
+            <section class="product-list">
+                <div class="results-info">
+                    <p>Showing 1-100 of 100 results</p>
+                    <select>
+                        <option>Sort by: Default</option>
+                        <option>Sort by: Price (Low to High)</option>
+                        <option>Sort by: Price (High to Low)</option>
+                        <option>Sort by: Rating (Low to High)</option>
+                        <option>Sort by: Rating (High to Low)</option>
+                        <option>Sort by: Alphabetical (A-Z)</option>
+                        <option>Sort by: Alphabetical (Z-A)</option>
+
+                        <!-- Add more sorting options -->
+                    </select>
+                </div>
+                <div class="products">
+                    <!-- Repeat this block for each product -->
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/0f91d3b7-85e1-43e0-889b-0ab803ffa266.jpeg"
+                            alt="Product Image">
+                        <h3>Red Bull</h3>
+                        <p>5kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/29991e99-9c20-4842-bb3f-797aa2c7473f.jpeg"
+                            alt="Product Image">
+                        <h3>Fresh Juice</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/678937df-da74-481f-9ed6-447f04810629.jpeg"
+                            alt="Product Image">
+                        <h3>Litchi Juice</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40127409_4-orsl-health-drink-apple.jpg"
+                            alt="Product Image">
+                        <h3>ORSL</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-363-853,pr-true,f-auto,q-80/inventory/product/86fd10ca-311c-44aa-9d16-8dcdda803fb5-/tmp/20230119-084956.jpeg"
+                            alt="Product Image">
+                        <h3>Drinking Water</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/1216212-2_1-mountain-dew-soft-drink.jpg"
+                            alt="Product Image">
+                        <h3>Mountain Dew</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+
+                    <!-- End of product block -->
+                </div>
+                <div class="questions">
+                    <h3>Still Have Questions?</h3>
+                    <p>Can't find the answer you're looking for? Please chat to our friendly team. <button>Get In
+                            Touch</button></p>
+
+                </div>
+
+
+
+                <div class="products">
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/b9de7595-7d1f-4a86-84f9-f6ffff86d905.jpeg"
+                            alt="Product Image">
+                        <h3>Instant Energy Drink</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40314318_1-gatorade-sports-drink-blue-bolt-flavour.jpg"
+                            alt="Product Image">
+                        <h3>Gatorade</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40219344_1-borecha-oh-fiji-fruit-punch-kombucha-zero-sugar-prebiotic.jpg"
+                            alt="Product Image">
+                        <h3>Fruit Punch</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40296122_2-aquatein-10g-protein-water-orange.jpg"
+                            alt="Product Image">
+                        <h3>Protein Water</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                    </div>
+                </div>
+            </section>
+
+
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Your Email Address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Best Prices & Deals</h3>
+                <p>Don't miss our daily amazing deals and prices</p>
+            </div>
+            <div class="footer-section">
+                <h3>Refundable</h3>
+                <p>If your items have damage we agree to refund it</p>
+            </div>
+            <div class="footer-section">
+                <h3>Free delivery</h3>
+                <p>Do purchase over $50 and get free delivery anywhere</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div style="display: flex; align-items: center;">
+                <p>&copy; 2024 Grocery Mart. All rights reserved. | <a href="#">Privacy Policy</a></p>
+
+            </div>
+            <div class="social-links1">
+                <a href="#" class="twittericon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mart</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <div class="logo-search">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="DROP IT">
+            </a>
+            <div class="search-bar">
+                <select>
+                    <option>All Categories</option>
+                    <option>Fruits</option>
+                    <option>Vegetables</option>
+                    <option>Dairy</option>
+                    <option>Meat</option>
+                    <option>Snacks</option>
+                    <option>Beverages</option>
+                    <option>Bakery</option>
+                    <option>Others</option>
+                    <!-- Add more categories as options -->
+                </select>
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-cart">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <h2>Product Categories</h2>
+                <ul>
+                    <li><a href="#">Top Picks</a></li>
+                    <li><a href="#">Hair Removal</a></li>
+                    <li><a href="#">Shaving Needs</a></li>
+                    <li><a href="#">Perfumes</a></li>
+                    <li><a href="#">Deos</a></li>
+                    <li><a href="#">Men's Grooming</a></li>
+                    <li><a href="#">Hygiene Essentials</a></li>
+                    <li><a href="#">Homegrown Brands</a></li>
+                    <li><a href="#">Newly Added</a></li>
+
+                </ul>
+                <div>
+                    <section class="banner">
+                        <h2>Fresh Vegetables BIG SALE</h2>
+                        <img src="banner.jpg" alt="Banner">
+                    </section>
+                </div>
+            </aside>
+
+            <section class="product-list">
+                <div class="results-info">
+                    <p>Showing 1-100 of 100 results</p>
+                    <select>
+                        <option>Sort by: Default</option>
+                        <option>Sort by: Price (Low to High)</option>
+                        <option>Sort by: Price (High to Low)</option>
+                        <option>Sort by: Rating (Low to High)</option>
+                        <option>Sort by: Rating (High to Low)</option>
+                        <option>Sort by: Alphabetical (A-Z)</option>
+                        <option>Sort by: Alphabetical (Z-A)</option>
+
+                        <!-- Add more sorting options -->
+                    </select>
+                </div>
+                <div class="products">
+                    <!-- Repeat this block for each product -->
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-521-1500,pr-true,f-auto,q-80/cms/product_variant/cf47acc3-cd34-4d24-905d-98556adf73c6.jpeg"
+                            alt="Product Image">
+                        <h3>Shave Foam</h3>
+                        <p>5kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40178582_5-gillette-mach-3-bladed-shaving-razor-handle-with-lubrication-strip-protects-skin.jpg"
+                            alt="Product Image">
+                        <h3>Razor</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/68cdee9d-4d48-4959-80ec-d38311358fd4.jpeg"
+                            alt="Product Image">
+                        <h3>Deo</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/298000_9-nivea-men-pure-impact-shower-gel-with-purifying-micro-particles-for-body-face-hair.jpg"
+                            alt="Product Image">
+                        <h3>Shower Gel</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40242090_1-gillette-pro-after-shave-splash-icy-cool-long-lasting-fragrance-tone-your-skin.jpg"
+                            alt="Product Image">
+                        <h3>Gillette Pro</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/77af7e13-0a1e-4011-9158-7cfb9714ce1d.jpg"
+                            alt="Product Image">
+                        <h3>Hair Dryer</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+
+                    <!-- End of product block -->
+                </div>
+                <div class="questions">
+                    <h3>Still Have Questions?</h3>
+                    <p>Can't find the answer you're looking for? Please chat to our friendly team. <button>Get In
+                            Touch</button></p>
+
+                </div>
+
+
+
+                <div class="products">
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/45810620-f034-438c-ba62-1fd800a2f0ed.jpeg"
+                            alt="Product Image">
+                        <h3>Trimmer</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1500-1500,pr-true,f-auto,q-80/inventory/product/761cf270-fa03-46f7-a6ea-9e68e15f8b22-/tmp/20231009-1011251.jpeg"
+                            alt="Product Image">
+                        <h3>Hair Styler</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40004447_14-nivea-men-dark-spot-reduction-face-wash-clean-clear-skin-with-10x-vitamin-c-effect.jpg"
+                            alt="Product Image">
+                        <h3>Face Wash</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/306241_6-set-wet-vertical-hold-styling-hair-gel.jpg"
+                            alt="Product Image">
+                        <h3>Hair Gel</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                    </div>
+                </div>
+            </section>
+
+
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Your Email Address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Best Prices & Deals</h3>
+                <p>Don't miss our daily amazing deals and prices</p>
+            </div>
+            <div class="footer-section">
+                <h3>Refundable</h3>
+                <p>If your items have damage we agree to refund it</p>
+            </div>
+            <div class="footer-section">
+                <h3>Free delivery</h3>
+                <p>Do purchase over $50 and get free delivery anywhere</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div style="display: flex; align-items: center;">
+                <p>&copy; 2024 Grocery Mart. All rights reserved. | <a href="#">Privacy Policy</a></p>
+
+            </div>
+            <div class="social-links1">
+                <a href="#" class="twittericon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

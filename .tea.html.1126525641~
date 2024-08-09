@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mart</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="left">
+                <a href="#">Account</a>
+                <a href="#">Track Order</a>
+            </div>
+            <div class="right">
+                <a href="tel:108-10808">📞 108-10808 24/7 support center</a>
+            </div>
+        </div>
+        <div class="logo-search">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="DROP IT">
+            </a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-cart">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+        <div class="category-bar">
+            <select>
+                <option>All Categories</option>
+                <option>Fruits</option>
+                <option>Vegetables</option>
+                <option>Dairy</option>
+                <option>Meat</option>
+                <option>Snacks</option>
+                <option>Beverages</option>
+                <option>Bakery</option>
+                <option>Others</option>
+                <!-- Add more categories as options -->
+            </select>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="product-categories">
+            <aside class="sidebar">
+                <h2>Product Categories</h2>
+                <ul>
+                    <li><a href="#"> Top Picks</a></li>
+                    <li><a href="#">Coffee</a></li>
+                    <li><a href="#">Tea</a></li>
+                    <li><a href="#">Drink Mixes</a></li>
+                    <li><a href="#">Green and Flavoured Tea</a></li>
+                    <li><a href="#">Ready To Drink</a></li>
+                    <li><a href="#">Batter & Mixes</a></li>
+                    <li><a href="#">Tea & Coffee</a></li>
+                    <li><a href="#">Top Deals</a></li>
+                    <li><a href="#">Homegrown Brands</a></li>
+                    <li><a href="#">Newly Added</a></li>
+
+
+                </ul>
+            </aside>
+
+        </section>
+
+        <section class="product-list">
+            <h2>Fresh Vegetables</h2>
+            <div class="product">
+                <img src="tomatoes.jpg" alt="Tomatoes">
+                <h3>Tomatoes</h3>
+                <p>Rating: ★★★★☆</p>
+                <button>Buy Now</button>
+            </div>
+
+        </section>
+        <aside class="sidebar">
+            <section class="banner">
+                <h2>Fresh Vegetables BIG SALE</h2>
+                <img src="banner.jpg" alt="Banner">
+            </section>
+        </aside>
+        <section class="product-list">
+            <div class="results-info">
+                <p>Showing 1-100 of 100 results</p>
+                <select>
+                    <option>Sort by: Default</option>
+                    <option>Sort by: Price (Low to High)</option>
+                    <option>Sort by: Price (High to Low)</option>
+                    <option>Sort by: Rating (Low to High)</option>
+                    <option>Sort by: Rating (High to Low)</option>
+                    <option>Sort by: Alphabetical (A-Z)</option>
+                    <option>Sort by: Alphabetical (Z-A)</option>
+
+                    <!-- Add more sorting options -->
+                </select>
+            </div>
+            <div class="products">
+                <!-- Repeat this block for each product -->
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>5kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹604.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+
+                <!-- End of product block -->
+            </div>
+            <div class="questions">
+                <h3>Still Have Questions?</h3>
+                <p>Can't find the answer you're looking for? Please chat to our friendly team.</p>
+                <button>Get In Touch</button>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product.jpg" alt="Product Image">
+                    <h3>Lorem ipsum</h3>
+                    <p>1kg</p>
+                    <div class="rating">
+                        <span>★★★★☆</span> (0)
+                    </div>
+                    <div class="price">
+                        <span>₹64.00</span>
+                        <button>🛒 Add</button>
+                    </div>
+                </div>
+                <div class="products">
+        </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2023 All rights reserved.</p>
+        <div class="payment-icons">
+            <img src="visa.png" alt="Visa">
+            <img src="mastercard.png" alt="Mastercard">
+        </div>
+    </footer>
+</body>
+
+</html>

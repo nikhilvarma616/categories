@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mart</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <div class="logo-search">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="DROP IT">
+            </a>
+            <div class="search-bar">
+                <select>
+                    <option>All Categories</option>
+                    <option>Fruits</option>
+                    <option>Vegetables</option>
+                    <option>Dairy</option>
+                    <option>Meat</option>
+                    <option>Snacks</option>
+                    <option>Beverages</option>
+                    <option>Bakery</option>
+                    <option>Others</option>
+                    <!-- Add more categories as options -->
+                </select>
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-cart">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <h2>Product Categories</h2>
+                <ul>
+                    <li><a href="#">Top Picks</a></li>
+                    <li><a href="#">Chicken</a></li>
+                    <li><a href="#">Fish & Sea Food</a></li>
+                    <li><a href="#">Mutton</a></li>
+                    <li><a href="#">Kabab & Marinades</a></li>
+                    <li><a href="#">Sausages & Salami</a></li>
+                    <li><a href="#">Canned & Dry Fish, Pickles</a></li>
+                    <li><a href="#">Egg</a></li>
+                    <li><a href="#">Non Veg Masala</a></li>
+                    <li><a href="#">Non Veg Frozen & Ready to Eat</a></li>
+                    <li><a href="#">Newly Added</a></li>
+
+                </ul>
+                <div>
+                    <section class="banner">
+                        <h2>Fresh Vegetables BIG SALE</h2>
+                        <img src="banner.jpg" alt="Banner">
+                    </section>
+                </div>
+            </aside>
+
+            <section class="product-list">
+                <div class="results-info">
+                    <p>Showing 1-100 of 100 results</p>
+                    <select>
+                        <option>Sort by: Default</option>
+                        <option>Sort by: Price (Low to High)</option>
+                        <option>Sort by: Price (High to Low)</option>
+                        <option>Sort by: Rating (Low to High)</option>
+                        <option>Sort by: Rating (High to Low)</option>
+                        <option>Sort by: Alphabetical (A-Z)</option>
+                        <option>Sort by: Alphabetical (Z-A)</option>
+
+                        <!-- Add more sorting options -->
+                    </select>
+                </div>
+                <div class="products">
+                    <!-- Repeat this block for each product -->
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40048846_2-fresho-catla-cut-pieces-preservative-free-4-6-pcs.jpg"
+                            alt="Product Image">
+                        <h3>Catla Fish</h3>
+                        <p>5kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/10000901_10-fresho-chicken-breast-boneless-antibiotic-residue-free.jpg"
+                            alt="Product Image">
+                        <h3>Chicken Breast</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-3000-4500,pr-true,f-auto,q-80/inventory/product/f65bd03e-e10b-4652-99cc-fc0f3156e783-13DcZDBXpEftLTGSxFZVYqw_bgAqaW6rA.jpeg"
+                            alt="Product Image">
+                        <h3>Chicken Ham</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1456-1456,pr-true,f-auto,q-80/cms/product_variant/4556dfe2-183b-40bb-b07c-e0fa96474f01.jpeg"
+                            alt="Product Image">
+                        <h3>Relish Lamb</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40197943_1-fresho-mutton-steak.jpg"
+                            alt="Product Image">
+                        <h3>Mutton Steak</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40106728_6-ayur-plus-eggs.jpg"
+                            alt="Product Image">
+                        <h3>Eggs</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+
+                    <!-- End of product block -->
+                </div>
+                <div class="questions">
+                    <h3>Still Have Questions?</h3>
+                    <p>Can't find the answer you're looking for? Please chat to our friendly team. <button>Get In
+                            Touch</button></p>
+
+                </div>
+
+
+
+                <div class="products">
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40048878_4-fresho-basa-fish-fillet-preservative-free.jpg"
+                            alt="Product Image">
+                        <h3>Fish Fillet</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40211364_2-prasuma-pork-frankfurter-beechwood-smoked.jpg"
+                            alt="Product Image">
+                        <h3>Pork Frankfurter</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40001532_2-gadre-imitation-crab-claw.jpg"
+                            alt="Product Image">
+                        <h3>Crab Claw</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40183639_4-meatzza-chicken-chapli-kebab.jpg"
+                            alt="Product Image">
+                        <h3>Chapli Kebab</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                    </div>
+                </div>
+            </section>
+
+
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Your Email Address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Best Prices & Deals</h3>
+                <p>Don't miss our daily amazing deals and prices</p>
+            </div>
+            <div class="footer-section">
+                <h3>Refundable</h3>
+                <p>If your items have damage we agree to refund it</p>
+            </div>
+            <div class="footer-section">
+                <h3>Free delivery</h3>
+                <p>Do purchase over $50 and get free delivery anywhere</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div style="display: flex; align-items: center;">
+                <p>&copy; 2024 Grocery Mart. All rights reserved. | <a href="#">Privacy Policy</a></p>
+
+            </div>
+            <div class="social-links1">
+                <a href="#" class="twittericon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

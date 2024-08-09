@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mart</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <div class="logo-search">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="DROP IT">
+            </a>
+            <div class="search-bar">
+                <select>
+                    <option>All Categories</option>
+                    <option>Fruits</option>
+                    <option>Vegetables</option>
+                    <option>Dairy</option>
+                    <option>Meat</option>
+                    <option>Snacks</option>
+                    <option>Beverages</option>
+                    <option>Bakery</option>
+                    <option>Others</option>
+                    <!-- Add more categories as options -->
+                </select>
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-cart">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <h2>Product Categories</h2>
+                <ul>
+                    <li><a href="#">Top Picks</a></li>
+                    <li><a href="#">Cleaning Aids</a></li>
+                    <li><a href="#">Pooja & Worship Needs</a></li>
+                    <li><a href="#">Stationery & Crafts</a></li>
+                    <li><a href="#">Kitchen Utility</a></li>
+                    <li><a href="#">Plants & Gardening</a></li>
+                    <li><a href="#">Tissues & Disposables</a></li>
+                    <li><a href="#">Home Utility</a></li>
+                    <li><a href="#">Fresheners</a></li>
+                    <li><a href="#">Utility & Organizer</a></li>
+                    <li><a href="#">Party Needs</a></li>
+                    <li><a href="#">Newly Added</a></li>
+                    <li><a href="#">Bedsheets & Towel</a></li>
+                    <li><a href="#">Festive Needs</a></li>
+                    <li><a href="#">Combos</a></li>
+                    <li><a href="#">Home Grown Brands</a></li>
+                    <li><a href="#">Automotive Needs</a></li>
+                    <li><a href="#">Bath & Laundry</a></li>
+                    <li><a href="#">Bed & Linen</a></li>
+                    <li><a href="#">Plants</a></li>
+                    <li><a href="#">Chair Ladder & Ironing</a></li>
+                    <li><a href="#">Home Decor</a></li>
+
+                </ul>
+                <div>
+                    <section class="banner">
+                        <h2>Fresh Vegetables BIG SALE</h2>
+                        <img src="banner.jpg" alt="Banner">
+                    </section>
+                </div>
+            </aside>
+
+            <section class="product-list">
+                <div class="results-info">
+                    <p>Showing 1-100 of 100 results</p>
+                    <select>
+                        <option>Sort by: Default</option>
+                        <option>Sort by: Price (Low to High)</option>
+                        <option>Sort by: Price (High to Low)</option>
+                        <option>Sort by: Rating (Low to High)</option>
+                        <option>Sort by: Rating (High to Low)</option>
+                        <option>Sort by: Alphabetical (A-Z)</option>
+                        <option>Sort by: Alphabetical (Z-A)</option>
+
+                        <!-- Add more sorting options -->
+                    </select>
+                </div>
+                <div class="products">
+                    <!-- Repeat this block for each product -->
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1200-931,pr-true,f-auto,q-80/cms/product_variant/3076d754-f3a7-4d7c-be3c-b3f9ef0d87fe.jpeg"
+                            alt="Product Image">
+                        <h3>Umbrella</h3>
+                        <p>5kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-850-853,pr-true,f-auto,q-80/cms/product_variant/d6a69d45-f6b6-4ed4-9ed9-1b04f3180eb1.jpg"
+                            alt="Product Image">
+                        <h3>Face Tissue</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1335-936,pr-true,f-auto,q-80/inventory/product/4a8e3e31-d253-4b27-ba02-719fe2313030-1le0CT59E0VR6mgsJpwaBkSqAn07FlDHa.jpeg"
+                            alt="Product Image">
+                        <h3>Screwdriver Tool Set</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40000307_5-om-bhakti-lamp-wicks-cotton-long-batti.jpg"
+                            alt="Product Image">
+                        <h3>Lamp Wicks</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40313342_1-mangaldeep-sambrani-sticks.jpg"
+                            alt="Product Image">
+                        <h3>Sambrani Sticks</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40317333_1-jbg-home-store-velvet-poojameditation-mat-51-x-51-cm-maroon.jpg"
+                            alt="Product Image">
+                        <h3>Mat</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+
+                    <!-- End of product block -->
+                </div>
+                <div class="questions">
+                    <h3>Still Have Questions?</h3>
+                    <p>Can't find the answer you're looking for? Please chat to our friendly team. <button>Get In
+                            Touch</button></p>
+
+                </div>
+
+
+
+                <div class="products">
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1600-1600,pr-true,f-auto,q-80/inventory/product/dab61bc8-22df-42f1-951b-43cecd3863fb-/tmp/20230301-1133351.jpeg"
+                            alt="Product Image">
+                        <h3>Disposable Plate</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-800-800,pr-true,f-auto,q-80/cms/product_variant/faa33338-9a9e-46f3-97bc-ebdc92c6c516.jpeg"
+                            alt="Product Image">
+                        <h3>Deepa Oil</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-500-500,pr-true,f-auto,q-80/cms/product_variant/6e894c45-fdd4-4898-96bb-571acd89baa7.jpeg"
+                            alt="Product Image">
+                        <h3>Balloon Pump</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-973-753,pr-true,f-auto,q-80/cms/product_variant/5319d742-7b0f-4b6d-aa18-6a812eb9f3a4.jpeg"
+                            alt="Product Image">
+                        <h3>Pillow Cover</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                    </div>
+                </div>
+            </section>
+
+
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Your Email Address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Best Prices & Deals</h3>
+                <p>Don't miss our daily amazing deals and prices</p>
+            </div>
+            <div class="footer-section">
+                <h3>Refundable</h3>
+                <p>If your items have damage we agree to refund it</p>
+            </div>
+            <div class="footer-section">
+                <h3>Free delivery</h3>
+                <p>Do purchase over $50 and get free delivery anywhere</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div style="display: flex; align-items: center;">
+                <p>&copy; 2024 Grocery Mart. All rights reserved. | <a href="#">Privacy Policy</a></p>
+
+            </div>
+            <div class="social-links1">
+                <a href="#" class="twittericon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

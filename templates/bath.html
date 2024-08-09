@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mart</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <div class="logo-search">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="DROP IT">
+            </a>
+            <div class="search-bar">
+                <select>
+                    <option>All Categories</option>
+                    <option>Fruits</option>
+                    <option>Vegetables</option>
+                    <option>Dairy</option>
+                    <option>Meat</option>
+                    <option>Snacks</option>
+                    <option>Beverages</option>
+                    <option>Bakery</option>
+                    <option>Others</option>
+                    <!-- Add more categories as options -->
+                </select>
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-cart">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <h2>Product Categories</h2>
+                <ul>
+                    <li><a href="#">Top Picks</a></li>
+                    <li><a href="#">Soaps</a></li>
+                    <li><a href="#">Body Creams</a></li>
+                    <li><a href="#">Shower Gels</a></li>
+                    <li><a href="#">Toothpaste & Mouthwash </a></li>
+                    <li><a href="#">Oral Care</a></li>
+                    <li><a href="#">Bath Accessories</a></li>
+                    <li><a href="#">Toothbrush & more</a></li>
+                    <li><a href="#">Talcum Powder</a></li>
+                    <li><a href="#">Homegrown Brands</a></li>
+                    <li><a href="#">Handwash</a></li>
+                    <li><a href="#">Newly Added</a></li>
+
+                </ul>
+                <div>
+                    <section class="banner">
+                        <h2>Fresh Vegetables BIG SALE</h2>
+                        <img src="banner.jpg" alt="Banner">
+                    </section>
+                </div>
+            </aside>
+
+            <section class="product-list">
+                <div class="results-info">
+                    <p>Showing 1-100 of 100 results</p>
+                    <select>
+                        <option>Sort by: Default</option>
+                        <option>Sort by: Price (Low to High)</option>
+                        <option>Sort by: Price (High to Low)</option>
+                        <option>Sort by: Rating (Low to High)</option>
+                        <option>Sort by: Rating (High to Low)</option>
+                        <option>Sort by: Alphabetical (A-Z)</option>
+                        <option>Sort by: Alphabetical (Z-A)</option>
+
+                        <!-- Add more sorting options -->
+                    </select>
+                </div>
+                <div class="products">
+                    <!-- Repeat this block for each product -->
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-980-980,pr-true,f-auto,q-80/cms/product_variant/1f20276c-232e-4e30-a694-5c0a6bf91f96.jpeg"
+                            alt="Product Image">
+                        <h3>Johnson's Baby </h3>
+                        <p>5kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/100014879_3-medimix-bathing-soap-ayurvedic-soap-with-18-herbs.jpg"
+                            alt="Product Image">
+                        <h3>Medimix</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-1000,ar-1080-1080,pr-true,f-auto,q-80/cms/product_variant/c1a2bceb-b17d-4f50-85c4-2f1cc1ab5257.jpeg"
+                            alt="Product Image">
+                        <h3>Loofah</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40120583_13-biotique-bio-carrot-seed-anti-aging-after-bath-body-oil.jpg"
+                            alt="Product Image">
+                        <h3>Body Oil</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40119187_18-colgate-toothpaste-maxfresh-red.jpg"
+                            alt="Product Image">
+                        <h3>Toothpaste</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40242275_1-dove-gentle-exfoliating-body-wash-nutrium-moisture-with-exfoliating-beads.jpg"
+                            alt="Product Image">
+                        <h3>Body Wash</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+
+                    <!-- End of product block -->
+                </div>
+                <div class="questions">
+                    <h3>Still Have Questions?</h3>
+                    <p>Can't find the answer you're looking for? Please chat to our friendly team. <button>Get In
+                            Touch</button></p>
+
+                </div>
+
+
+
+                <div class="products">
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40180786_7-nivea-body-wash-gel-waterlily-oil-shower.jpg"
+                            alt="Product Image">
+                        <h3>Shower Gel</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/30008723_15-oral-b-sensitive-toothbrush-with-extra-soft-bristles.jpg"
+                            alt="Product Image">
+                        <h3>Tooth Brushm</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40258761_1-listerine-total-care-mouthwash-mild-taste-clears-999-germs.jpg"
+                            alt="Product Image">
+                        <h3>Mouthwash</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40061695_2-formula-tongue-cleaner.jpg"
+                            alt="Product Image">
+                        <h3>Tongue Cleaner</h3>
+                        <p>1kg</p>
+                        <div class="rating">
+                            <span>★★★★☆</span> (0)
+                        </div>
+                        <div class="price">
+                            <span>₹64.00</span>
+                            <button>🛒 Add</button>
+                        </div>
+                    </div>
+                    <div class="products">
+                    </div>
+                </div>
+            </section>
+
+
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Your Email Address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Best Prices & Deals</h3>
+                <p>Don't miss our daily amazing deals and prices</p>
+            </div>
+            <div class="footer-section">
+                <h3>Refundable</h3>
+                <p>If your items have damage we agree to refund it</p>
+            </div>
+            <div class="footer-section">
+                <h3>Free delivery</h3>
+                <p>Do purchase over $50 and get free delivery anywhere</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div style="display: flex; align-items: center;">
+                <p>&copy; 2024 Grocery Mart. All rights reserved. | <a href="#">Privacy Policy</a></p>
+
+            </div>
+            <div class="social-links1">
+                <a href="#" class="twittericon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twittericon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
